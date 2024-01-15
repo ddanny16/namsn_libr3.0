@@ -6,8 +6,7 @@ downloadButton1.addEventListener("click", function () {
   const downloadLink = document.createElement("a");
   downloadLink.style.display = "none";
   downloadLink.href = fileURL;
-  downloadLink.download =
-    "/MTS 101/2021-2022-MTS-101-FURTHER-NOTE1.pdf";
+  downloadLink.download = "/MTS 101/2021-2022-MTS-101-FURTHER-NOTE1.pdf";
 
   document.body.appendChild(downloadLink);
 
@@ -27,8 +26,7 @@ downloadButton2.addEventListener("click", function () {
   const downloadLink = document.createElement("a");
   downloadLink.style.display = "none";
   downloadLink.href = fileURL1;
-  downloadLink.download =
-    "/MTS 101/2021-2022-MTS-101-FURTHER-NOTE2.pdf";
+  downloadLink.download = "/MTS 101/2021-2022-MTS-101-FURTHER-NOTE2.pdf";
 
   document.body.appendChild(downloadLink);
 
@@ -49,8 +47,7 @@ downloadButton3.addEventListener("click", function () {
   const downloadLink = document.createElement("a");
   downloadLink.style.display = "none";
   downloadLink.href = fileURL2;
-  downloadLink.download =
-    "/MTS 101/2021-2022-MTS-101-FURTHER-NOTE3.pdf";
+  downloadLink.download = "/MTS 101/2021-2022-MTS-101-FURTHER-NOTE3.pdf";
 
   document.body.appendChild(downloadLink);
 
@@ -64,8 +61,7 @@ downloadButton3.addEventListener("click", function () {
 // 4
 const downloadButton4 = document.getElementById("downloadButton4");
 
-const fileURL3 =
-  "/MTS 101/2021-2022-MTS-101-VIRTUAL-LECTURE-NOTE (1).pdf";
+const fileURL3 = "/MTS 101/2021-2022-MTS-101-VIRTUAL-LECTURE-NOTE (1).pdf";
 
 downloadButton4.addEventListener("click", function () {
   const downloadLink = document.createElement("a");
@@ -86,15 +82,13 @@ downloadButton4.addEventListener("click", function () {
 // 5
 const downloadButton5 = document.getElementById("downloadButton5");
 
-const fileURL4 =
-  "/MTS 101/2021-2022-MTS-101-VIRTUAL-LECTURE-NOTE.pdf";
+const fileURL4 = "/MTS 101/2021-2022-MTS-101-VIRTUAL-LECTURE-NOTE.pdf";
 
 downloadButton5.addEventListener("click", function () {
   const downloadLink = document.createElement("a");
   downloadLink.style.display = "none";
   downloadLink.href = fileURL4;
-  downloadLink.download =
-    "/MTS 101/2021-2022-MTS-101-VIRTUAL-LECTURE-NOTE.pdf";
+  downloadLink.download = "/MTS 101/2021-2022-MTS-101-VIRTUAL-LECTURE-NOTE.pdf";
 
   document.body.appendChild(downloadLink);
 
@@ -139,8 +133,7 @@ downloadButton7.addEventListener("click", function () {
   const downloadLink = document.createElement("a");
   downloadLink.style.display = "none";
   downloadLink.href = fileURL5;
-  downloadLink.download =
-    "/MTS 101/indices, logarithm and surd p.d.f.pdf";
+  downloadLink.download = "/MTS 101/indices, logarithm and surd p.d.f.pdf";
 
   document.body.appendChild(downloadLink);
 
@@ -161,8 +154,7 @@ downloadButton8.addEventListener("click", function () {
   const downloadLink = document.createElement("a");
   downloadLink.style.display = "none";
   downloadLink.href = fileURL6;
-  downloadLink.download =
-    "/MTS 101/MTS101_Complex_Number (1).pdf";
+  downloadLink.download = "/MTS 101/MTS101_Complex_Number (1).pdf";
 
   document.body.appendChild(downloadLink);
 
@@ -315,10 +307,7 @@ const downloadButton14 = document.getElementById("downloadButton14");
 downloadButton14.addEventListener("click", downloadFiles6);
 //
 function downloadFiles7() {
-  const fileUrls7 = [
-    "/102/MTS 102 Trigonometry .pdf",
-    "/102/MTS102_TRIG.pdf",
-  ];
+  const fileUrls7 = ["/102/MTS 102 Trigonometry .pdf", "/102/MTS102_TRIG.pdf"];
 
   fileUrls7.forEach((url) => {
     const link = document.createElement("a");
@@ -499,10 +488,7 @@ const downloadButton23 = document.getElementById("downloadButton23");
 downloadButton23.addEventListener("click", downloadFiles15);
 //   MTS104
 function downloadFiles16() {
-  const fileUrls16 = [
-    "/104/mts104_shm.pdf",
-    "/104/mts104_shm_cont.pdf",
-  ];
+  const fileUrls16 = ["/104/mts104_shm.pdf", "/104/mts104_shm_cont.pdf"];
 
   fileUrls16.forEach((url) => {
     const link = document.createElement("a");
@@ -649,10 +635,7 @@ const downloadButton30 = document.getElementById("downloadButton30");
 downloadButton30.addEventListener("click", downloadFiles22);
 // sts112
 function downloadFiles23() {
-  const fileUrls23 = [
-    "/112/stat_tables-1.pdf",
-    "/112/",
-  ];
+  const fileUrls23 = ["/112/stat_tables-1.pdf", "/112/"];
 
   fileUrls23.forEach((url) => {
     const link = document.createElement("a");
@@ -853,10 +836,10 @@ downloadButton40.addEventListener("click", downloadFiles32);
 // BIO102
 function downloadFiles33() {
   const fileUrls33 = [
- '/BIO 101/102/BIO 102 - Nomenclature.pdf',
- '/BIO 101/102/Bio 102 - Phylum Protozoa.pdf',
- '/BIO 101/102/Phylum Protozoa ( BIO 102).pdf',
- '/BIO 101/102/Nematode BIO102.pdf',
+    "/BIO 101/102/BIO 102 - Nomenclature.pdf",
+    "/BIO 101/102/Bio 102 - Phylum Protozoa.pdf",
+    "/BIO 101/102/Phylum Protozoa ( BIO 102).pdf",
+    "/BIO 101/102/Nematode BIO102.pdf",
   ];
 
   fileUrls33.forEach((url) => {
@@ -874,9 +857,9 @@ downloadButton41.addEventListener("click", downloadFiles33);
 // BIO102
 function downloadFiles34() {
   const fileUrls34 = [
-'/BIO 101/102/238 BIO 102 Past Questions .pdf',
-'/BIO 101/102/238 BIO 102 Past Questions .pdf',
-'/BIO 101/102/',
+    "/BIO 101/102/238 BIO 102 Past Questions .pdf",
+    "/BIO 101/102/238 BIO 102 Past Questions .pdf",
+    "/BIO 101/102/",
   ];
 
   fileUrls34.forEach((url) => {
@@ -895,9 +878,9 @@ downloadButton42.addEventListener("click", downloadFiles34);
 // PHS101
 function downloadFiles35() {
   const fileUrls35 = [
-'/phs 101/UniversityPhysicsVolume1-LR.pdf',
-'/phs 101/Schaums Outline of Theory and ProblemsofCollegePhysics.pdf',
-'/phs 101/',
+    "/phs 101/UniversityPhysicsVolume1-LR.pdf",
+    "/phs 101/Schaums Outline of Theory and ProblemsofCollegePhysics.pdf",
+    "/phs 101/",
   ];
 
   fileUrls35.forEach((url) => {
@@ -915,8 +898,8 @@ downloadButton43.addEventListener("click", downloadFiles35);
 // PHS101
 function downloadFiles36() {
   const fileUrls36 = [
-'/phs 101/THERMODYNAMICS PHS 101.pdf',
-'/phs 101/EXCERCISES ON THERMODYNAMICS PHS 101 (1).pdf',
+    "/phs 101/THERMODYNAMICS PHS 101.pdf",
+    "/phs 101/EXCERCISES ON THERMODYNAMICS PHS 101 (1).pdf",
   ];
 
   fileUrls36.forEach((url) => {
@@ -934,9 +917,9 @@ downloadButton44.addEventListener("click", downloadFiles36);
 // PHS101
 function downloadFiles37() {
   const fileUrls37 = [
-'/phs 101/PHS 101GENERAL PHYSICS.pdf',
-'/phs 101/GENERAL PHYSICS 1 (phs 101 A module 4) Newton;s Laws.pptx',
-'/phs 101/GENERAL PHYSICS 1 (phs 101 A module 4) Newton;s Laws.pptx',
+    "/phs 101/PHS 101GENERAL PHYSICS.pdf",
+    "/phs 101/GENERAL PHYSICS 1 (phs 101 A module 4) Newton;s Laws.pptx",
+    "/phs 101/GENERAL PHYSICS 1 (phs 101 A module 4) Newton;s Laws.pptx",
   ];
 
   fileUrls37.forEach((url) => {
@@ -954,9 +937,9 @@ downloadButton45.addEventListener("click", downloadFiles37);
 // PHS101
 function downloadFiles38() {
   const fileUrls38 = [
-'/phs 101/PHS 101 Past Questions.pdf',
-'/phs 101/PHS 105 & CHM 101  PQ.pdf',
-'/phs 101/PHS101 revision questions. .pdf',
+    "/phs 101/PHS 101 Past Questions.pdf",
+    "/phs 101/PHS 105 & CHM 101  PQ.pdf",
+    "/phs 101/PHS101 revision questions. .pdf",
   ];
 
   fileUrls38.forEach((url) => {
@@ -971,3 +954,42 @@ function downloadFiles38() {
 
 const downloadButton46 = document.getElementById("downloadButton46");
 downloadButton46.addEventListener("click", downloadFiles38);
+// PHS102
+// PHS102
+function downloadFiles39() {
+  const fileUrls39 = [
+'/phs 102/PHS 102 - Merged-1.pdf',
+'/phs 102/PHS 101GENERAL PHYSICS.pdf',
+  ];
+
+  fileUrls39.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton47 = document.getElementById("downloadButton47");
+downloadButton47.addEventListener("click", downloadFiles39);
+// PHS102
+function downloadFiles40() {
+  const fileUrls40 = [
+'/phs 102/PHS102 Electromagnetic waves .pdf',
+'/phs 102/jee-main-electromagnetic-waves-important-question.pdf',
+  ];
+
+  fileUrls40.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton488 = document.getElementById("downloadButton48");
+downloadButton48.addEventListener("click", downloadFiles40);
