@@ -958,8 +958,8 @@ downloadButton46.addEventListener("click", downloadFiles38);
 // PHS102
 function downloadFiles39() {
   const fileUrls39 = [
-'/phs 102/PHS 102 - Merged-1.pdf',
-'/phs 102/PHS 101GENERAL PHYSICS.pdf',
+    "/phs 102/PHS 102 - Merged-1.pdf",
+    "/phs 102/PHS 101GENERAL PHYSICS.pdf",
   ];
 
   fileUrls39.forEach((url) => {
@@ -977,8 +977,8 @@ downloadButton47.addEventListener("click", downloadFiles39);
 // PHS102
 function downloadFiles40() {
   const fileUrls40 = [
-'/phs 102/PHS102 Electromagnetic waves .pdf',
-'/phs 102/jee-main-electromagnetic-waves-important-question.pdf',
+    "/phs 102/PHS102 Electromagnetic waves .pdf",
+    "/phs 102/jee-main-electromagnetic-waves-important-question.pdf",
   ];
 
   fileUrls40.forEach((url) => {
@@ -991,5 +991,52 @@ function downloadFiles40() {
   });
 }
 
-const downloadButton488 = document.getElementById("downloadButton48");
+const downloadButton48 = document.getElementById("downloadButton48");
 downloadButton48.addEventListener("click", downloadFiles40);
+// PHS102
+function downloadFiles41() {
+  const fileUrls41 = [
+    "/phs 102/PHS102 Optics Diffraction .pdf",
+    "/phs 102/PHS102 Radiation and Photon.pdf",
+  ];
+
+  fileUrls41.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton49 = document.getElementById("downloadButton49");
+downloadButton49.addEventListener("click", downloadFiles41);
+// PHS102
+function downloadFiles42() {
+  const fileUrls42 = [
+ '/phs 102/Jaye PHS 102 past question.pdf',
+ '/phs 102/pq/IMG-20230718-WA0134.jpg',
+ '/phs 102/pq/IMG-20230718-WA01340001.jpg',
+ '/phs 102/pq/IMG-20230718-WA0135.jpg',
+ '/phs 102/pq/IMG-20230718-WA0136.jpg',
+ '/phs 102/pq/IMG-20230718-WA0137.jpg',
+ '/phs 102/pq/IMG-20230718-WA0138.jpg',
+ '/phs 102/pq/IMG-20230718-WA0139.jpg',
+ '/phs 102/pq/IMG-20230718-WA01390001.jpg',
+ '/phs 102/pq/IMG-20230718-WA0140.jpg',
+ '/phs 102/pq/IMG-20230718-WA01400001.jpg',
+  ];
+
+  fileUrls42.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton50 = document.getElementById("downloadButton50");
+downloadButton50.addEventListener("click", downloadFiles42);
