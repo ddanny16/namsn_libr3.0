@@ -893,3 +893,81 @@ const downloadButton42 = document.getElementById("downloadButton42");
 downloadButton42.addEventListener("click", downloadFiles34);
 // PHS101
 // PHS101
+function downloadFiles35() {
+  const fileUrls35 = [
+'/phs 101/UniversityPhysicsVolume1-LR.pdf',
+'/phs 101/Schaums Outline of Theory and ProblemsofCollegePhysics.pdf',
+'/phs 101/',
+  ];
+
+  fileUrls35.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton43 = document.getElementById("downloadButton43");
+downloadButton43.addEventListener("click", downloadFiles35);
+// PHS101
+function downloadFiles36() {
+  const fileUrls36 = [
+'/phs 101/THERMODYNAMICS PHS 101.pdf',
+'/phs 101/EXCERCISES ON THERMODYNAMICS PHS 101 (1).pdf',
+  ];
+
+  fileUrls36.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton44 = document.getElementById("downloadButton44");
+downloadButton44.addEventListener("click", downloadFiles36);
+// PHS101
+function downloadFiles37() {
+  const fileUrls37 = [
+'/phs 101/PHS 101GENERAL PHYSICS.pdf',
+'/phs 101/GENERAL PHYSICS 1 (phs 101 A module 4) Newton;s Laws.pptx',
+'/phs 101/GENERAL PHYSICS 1 (phs 101 A module 4) Newton;s Laws.pptx',
+  ];
+
+  fileUrls37.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton45 = document.getElementById("downloadButton45");
+downloadButton45.addEventListener("click", downloadFiles37);
+// PHS101
+function downloadFiles38() {
+  const fileUrls38 = [
+'/phs 101/PHS 101 Past Questions.pdf',
+'/phs 101/PHS 105 & CHM 101  PQ.pdf',
+'/phs 101/PHS101 revision questions. .pdf',
+  ];
+
+  fileUrls38.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton46 = document.getElementById("downloadButton46");
+downloadButton46.addEventListener("click", downloadFiles38);
