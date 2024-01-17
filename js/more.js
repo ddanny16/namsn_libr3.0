@@ -1176,9 +1176,7 @@ downloadButton56.addEventListener("click", downloadFiles48);
 // GNS101
 // GNS101
 function downloadFiles49() {
-  const fileUrls49 = [
-  '/GNS 101/Mariama_Ba_So_Long_a_Letter_booktree.ng_.pdf',
-  ];
+  const fileUrls49 = ["/GNS 101/Mariama_Ba_So_Long_a_Letter_booktree.ng_.pdf"];
 
   fileUrls49.forEach((url) => {
     const link = document.createElement("a");
@@ -1194,9 +1192,7 @@ const downloadButton57 = document.getElementById("downloadButton57");
 downloadButton57.addEventListener("click", downloadFiles49);
 // GNS101
 function downloadFiles50() {
-  const fileUrls50 = [
-  '/GNS 101/Practice Qusetion on So long a letter.pdf',
-  ];
+  const fileUrls50 = ["/GNS 101/Practice Qusetion on So long a letter.pdf"];
 
   fileUrls50.forEach((url) => {
     const link = document.createElement("a");
@@ -1213,8 +1209,8 @@ downloadButton58.addEventListener("click", downloadFiles50);
 // GNS101
 function downloadFiles51() {
   const fileUrls51 = [
-  '/GNS 101/So Long a Letter ( PDFDrive ).pdf',
-  '/GNS 101/Summary of SO LONG A LETTER.pdf',
+    "/GNS 101/So Long a Letter ( PDFDrive ).pdf",
+    "/GNS 101/Summary of SO LONG A LETTER.pdf",
   ];
 
   fileUrls51.forEach((url) => {
@@ -1231,9 +1227,7 @@ const downloadButton59 = document.getElementById("downloadButton59");
 downloadButton59.addEventListener("click", downloadFiles51);
 // GNS101
 function downloadFiles52() {
-  const fileUrls52 = [
-'/GNS 101/The Trials of Bro. Jero. SUNNYWISE.pdf',
-  ];
+  const fileUrls52 = ["/GNS 101/The Trials of Bro. Jero. SUNNYWISE.pdf"];
 
   fileUrls52.forEach((url) => {
     const link = document.createElement("a");
@@ -1247,3 +1241,39 @@ function downloadFiles52() {
 
 const downloadButton60 = document.getElementById("downloadButton60");
 downloadButton60.addEventListener("click", downloadFiles52);
+// GNS111
+// GNS111
+function downloadFiles53() {
+  const fileUrls53 = [
+    "/GNS 111/GNS 111-103 WEEK TWO .pdf",
+    "/GNS 111/GNS 111-103 WEEK TWO .pdf",
+  ];
+
+  fileUrls53.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton61 = document.getElementById("downloadButton61");
+downloadButton61.addEventListener("click", downloadFiles53);
+// GNS111
+function downloadFiles54() {
+  const fileUrls54 = ["/GNS 111/GNS 111-103 WEEK FOUR .pdf"];
+
+  fileUrls54.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton62 = document.getElementById("downloadButton62");
+downloadButton62.addEventListener("click", downloadFiles54);
