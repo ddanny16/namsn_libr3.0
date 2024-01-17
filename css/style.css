@@ -1740,5 +1740,12 @@ header .circle {
     margin: 0.25rem 0;
   }
 
-
+  @media (max-width: 580px){
+    .filter-btn {
+      padding: 0.36rem 0.7rem;
+      font-size: 0.6rem;
+      color: #03010a;
+  }
+  }
+ 
 /* End Responsive */
