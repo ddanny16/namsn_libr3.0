@@ -1015,17 +1015,17 @@ downloadButton49.addEventListener("click", downloadFiles41);
 // PHS102
 function downloadFiles42() {
   const fileUrls42 = [
- '/phs 102/Jaye PHS 102 past question.pdf',
- '/phs 102/pq/IMG-20230718-WA0134.jpg',
- '/phs 102/pq/IMG-20230718-WA01340001.jpg',
- '/phs 102/pq/IMG-20230718-WA0135.jpg',
- '/phs 102/pq/IMG-20230718-WA0136.jpg',
- '/phs 102/pq/IMG-20230718-WA0137.jpg',
- '/phs 102/pq/IMG-20230718-WA0138.jpg',
- '/phs 102/pq/IMG-20230718-WA0139.jpg',
- '/phs 102/pq/IMG-20230718-WA01390001.jpg',
- '/phs 102/pq/IMG-20230718-WA0140.jpg',
- '/phs 102/pq/IMG-20230718-WA01400001.jpg',
+    "/phs 102/Jaye PHS 102 past question.pdf",
+    "/phs 102/pq/IMG-20230718-WA0134.jpg",
+    "/phs 102/pq/IMG-20230718-WA01340001.jpg",
+    "/phs 102/pq/IMG-20230718-WA0135.jpg",
+    "/phs 102/pq/IMG-20230718-WA0136.jpg",
+    "/phs 102/pq/IMG-20230718-WA0137.jpg",
+    "/phs 102/pq/IMG-20230718-WA0138.jpg",
+    "/phs 102/pq/IMG-20230718-WA0139.jpg",
+    "/phs 102/pq/IMG-20230718-WA01390001.jpg",
+    "/phs 102/pq/IMG-20230718-WA0140.jpg",
+    "/phs 102/pq/IMG-20230718-WA01400001.jpg",
   ];
 
   fileUrls42.forEach((url) => {
@@ -1040,3 +1040,135 @@ function downloadFiles42() {
 
 const downloadButton50 = document.getElementById("downloadButton50");
 downloadButton50.addEventListener("click", downloadFiles42);
+// CHM101
+// CHM101
+// CHM101
+function downloadFiles43() {
+  const fileUrls43 = [
+    "/CHM101/CHM_101_pH,_Solubility_and_Ionic_Equilibrias_2020_2021_2_sets.pptx",
+    "/CHM/CHM 101 - ph, Solubility and Ionic Equilbria.pdf",
+    "/CHM/CHM 101 _ pH, Solubility and Ionic Equilibrias - 2020-2021 - 2 sets.pptx",
+  ];
+
+  fileUrls43.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton51 = document.getElementById("downloadButton51");
+downloadButton51.addEventListener("click", downloadFiles43);
+// CHM101
+function downloadFiles44() {
+  const fileUrls44 = [
+    "/CHM101/CHM 101 Thermochem 2023 Bamgbose PRINT.pdf",
+    "/CHM101/CHM 101 Thermochem 2023 Bamgbose READ.pdf",
+    "/CHM101/CHM 101 Thermochemistry and Kinetics1.ppsm.pdf",
+  ];
+
+  fileUrls44.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton52 = document.getElementById("downloadButton52");
+downloadButton52.addEventListener("click", downloadFiles44);
+// CHM101
+function downloadFiles45() {
+  const fileUrls45 = [
+    "/CHM101/CHM101 (Compiled By Mr phlex) (2).pdf",
+    "/CHM101/Schaums Outline of Theory and Problems of Beginning Chemistry ( PDFDrive ).pdf",
+    "/CHM101/CHM 101-CHEMICAL EQUILIBRIUM .pdf",
+    '/CHM/474_CHM 101 LECTURE NOTE-2-1.pdf'
+  ];
+
+  fileUrls45.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton53 = document.getElementById("downloadButton53");
+downloadButton53.addEventListener("click", downloadFiles45);
+// CHM101
+function downloadFiles46() {
+  const fileUrls46 = [
+  '/CHM/CHM 101 -Kinetic theory 2021  Module B students.pdf',
+  '/CHM/CHM 101 -Kinetic theory 2021  Module B students.pptx',
+  '/CHM/CHM 101 -Kinetic theory 2021  Module B students.pptx',
+  '/CHM/CHM 101 -Kinetic theory 2021 module 1 class.pptx',
+  '/CHM/CHM 101 -Kinetic theory 2021 Student (2).pdf',
+  '/CHM/CHM 101 -Kinetic theory 2023 AFOLABI PRINT.pdf',
+  '/CHM/CHM 101 -Kinetic theory 2023 AFOLABI READ.pdf',
+  ];
+
+  fileUrls46.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton54 = document.getElementById("downloadButton54");
+downloadButton54.addEventListener("click", downloadFiles46);
+// CHM101
+function downloadFiles47() {
+  const fileUrls47 = [
+'/CHM/CHM 101 exams and CAT.pdf',
+'/CHM101/CHM 101 PAST QUESTIONS BY BAMO-1.pdf',
+'/CHM101/CHM 101 PAST QUESTIONS BY BAMO.pdf',
+'/CHM101/CHM 101 PAST QUESTIONS OLD PART ONE (1).pdf',
+'/CHM101/CHM 101 PAST QUESTIONS-2(2).pdf',
+'/CHM101/CHM 101 Past Questions.pdf',
+'/CHM101/CHM-101-past-questions-1.pdf',
+'/CHM101/CHM-101-past-questions.pdf',
+  ];
+
+  fileUrls47.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton55 = document.getElementById("downloadButton55");
+downloadButton55.addEventListener("click", downloadFiles47);
+// CHM104
+// CHM104
+function downloadFiles48() {
+  const fileUrls48 = [
+'/CHM/CHM104 Chemical Properties of Group IA .pdf',
+'/CHM/CHM104 Group IVA Elements.pdf',
+  ];
+
+  fileUrls48.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton56 = document.getElementById("downloadButton56");
+downloadButton56.addEventListener("click", downloadFiles48);
