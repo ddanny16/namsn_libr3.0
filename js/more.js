@@ -1277,3 +1277,70 @@ function downloadFiles54() {
 
 const downloadButton62 = document.getElementById("downloadButton62");
 downloadButton62.addEventListener("click", downloadFiles54);
+// GNS111
+function downloadFiles55() {
+  const fileUrls55 = ["/GNS 111/GNS 111-103 WEEK FOUR -SUNNYWISE-Reduced.pdf"];
+
+  fileUrls55.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton63 = document.getElementById("downloadButton63");
+downloadButton63.addEventListener("click", downloadFiles55);
+// GNS111
+function downloadFiles56() {
+  const fileUrls56 = ["/GNS 111/GNS 111-103 WEEK SIX (1).pdf"];
+
+  fileUrls56.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton64 = document.getElementById("downloadButton64");
+downloadButton64.addEventListener("click", downloadFiles56);
+// GNS111
+function downloadFiles57() {
+  const fileUrls57 = ["/GNS 111/GNS 111-103 WEEK SEVEN .pdf"];
+
+  fileUrls57.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton65 = document.getElementById("downloadButton65");
+downloadButton65.addEventListener("click", downloadFiles57);
+// GNS111
+function downloadFiles58() {
+  const fileUrls58 = [
+    "/GNS 111/GNS 111-103 WEEK EIGHT.pdf",
+    "/GNS 111/GNS 111-103 WEEK 9 .pdf",
+];
+
+  fileUrls58.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton66 = document.getElementById("downloadButton66");
+downloadButton66.addEventListener("click", downloadFiles58);
