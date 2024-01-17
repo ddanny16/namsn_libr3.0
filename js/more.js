@@ -1330,7 +1330,7 @@ function downloadFiles58() {
   const fileUrls58 = [
     "/GNS 111/GNS 111-103 WEEK EIGHT.pdf",
     "/GNS 111/GNS 111-103 WEEK 9 .pdf",
-];
+  ];
 
   fileUrls58.forEach((url) => {
     const link = document.createElement("a");
@@ -1344,3 +1344,62 @@ function downloadFiles58() {
 
 const downloadButton66 = document.getElementById("downloadButton66");
 downloadButton66.addEventListener("click", downloadFiles58);
+// GNG102
+// GNG102
+function downloadFiles59() {
+  const fileUrls59 = [
+'/GNS 102/Funmilayo Ransome Kuti.pdf',
+'/GNS 102/History of Efunsetan Aniwura by Comr. Jaylor (SUG incoming President)(1).pdf',
+  ];
+
+  fileUrls59.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton67 = document.getElementById("downloadButton67");
+downloadButton67.addEventListener("click", downloadFiles59);
+// GNG102
+function downloadFiles60() {
+  const fileUrls60 = [
+    '/GNS 102/Module Four.pdf',
+    '/GNS 102/MODULE 5.pdf',
+  ];
+
+  fileUrls60.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton68 = document.getElementById("downloadButton68");
+downloadButton68.addEventListener("click", downloadFiles60);
+// GNG102
+function downloadFiles61() {
+  const fileUrls61 = [
+  '/GNS 102/Module 6 PDF.pdf',
+  '/GNS 102/Module 7 PDF.pdf',
+  '/GNS 102/Module 8 Heroines.docx',
+  ];
+
+  fileUrls61.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton69 = document.getElementById("downloadButton69");
+downloadButton69.addEventListener("click", downloadFiles61);

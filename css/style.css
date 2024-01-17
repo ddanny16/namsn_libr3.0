@@ -1740,7 +1740,7 @@ header .circle {
     margin: 0.25rem 0;
   }
 
-  @media (max-width: 580px){
+  @media (max-width: 870px){
     .filter-btn {
       padding: 0.36rem 0.7rem;
       font-size: 0.6rem;
