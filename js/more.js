@@ -1088,7 +1088,7 @@ function downloadFiles45() {
     "/CHM101/CHM101 (Compiled By Mr phlex) (2).pdf",
     "/CHM101/Schaums Outline of Theory and Problems of Beginning Chemistry ( PDFDrive ).pdf",
     "/CHM101/CHM 101-CHEMICAL EQUILIBRIUM .pdf",
-    '/CHM/474_CHM 101 LECTURE NOTE-2-1.pdf'
+    "/CHM/474_CHM 101 LECTURE NOTE-2-1.pdf",
   ];
 
   fileUrls45.forEach((url) => {
@@ -1106,13 +1106,13 @@ downloadButton53.addEventListener("click", downloadFiles45);
 // CHM101
 function downloadFiles46() {
   const fileUrls46 = [
-  '/CHM/CHM 101 -Kinetic theory 2021  Module B students.pdf',
-  '/CHM/CHM 101 -Kinetic theory 2021  Module B students.pptx',
-  '/CHM/CHM 101 -Kinetic theory 2021  Module B students.pptx',
-  '/CHM/CHM 101 -Kinetic theory 2021 module 1 class.pptx',
-  '/CHM/CHM 101 -Kinetic theory 2021 Student (2).pdf',
-  '/CHM/CHM 101 -Kinetic theory 2023 AFOLABI PRINT.pdf',
-  '/CHM/CHM 101 -Kinetic theory 2023 AFOLABI READ.pdf',
+    "/CHM/CHM 101 -Kinetic theory 2021  Module B students.pdf",
+    "/CHM/CHM 101 -Kinetic theory 2021  Module B students.pptx",
+    "/CHM/CHM 101 -Kinetic theory 2021  Module B students.pptx",
+    "/CHM/CHM 101 -Kinetic theory 2021 module 1 class.pptx",
+    "/CHM/CHM 101 -Kinetic theory 2021 Student (2).pdf",
+    "/CHM/CHM 101 -Kinetic theory 2023 AFOLABI PRINT.pdf",
+    "/CHM/CHM 101 -Kinetic theory 2023 AFOLABI READ.pdf",
   ];
 
   fileUrls46.forEach((url) => {
@@ -1130,14 +1130,14 @@ downloadButton54.addEventListener("click", downloadFiles46);
 // CHM101
 function downloadFiles47() {
   const fileUrls47 = [
-'/CHM/CHM 101 exams and CAT.pdf',
-'/CHM101/CHM 101 PAST QUESTIONS BY BAMO-1.pdf',
-'/CHM101/CHM 101 PAST QUESTIONS BY BAMO.pdf',
-'/CHM101/CHM 101 PAST QUESTIONS OLD PART ONE (1).pdf',
-'/CHM101/CHM 101 PAST QUESTIONS-2(2).pdf',
-'/CHM101/CHM 101 Past Questions.pdf',
-'/CHM101/CHM-101-past-questions-1.pdf',
-'/CHM101/CHM-101-past-questions.pdf',
+    "/CHM/CHM 101 exams and CAT.pdf",
+    "/CHM101/CHM 101 PAST QUESTIONS BY BAMO-1.pdf",
+    "/CHM101/CHM 101 PAST QUESTIONS BY BAMO.pdf",
+    "/CHM101/CHM 101 PAST QUESTIONS OLD PART ONE (1).pdf",
+    "/CHM101/CHM 101 PAST QUESTIONS-2(2).pdf",
+    "/CHM101/CHM 101 Past Questions.pdf",
+    "/CHM101/CHM-101-past-questions-1.pdf",
+    "/CHM101/CHM-101-past-questions.pdf",
   ];
 
   fileUrls47.forEach((url) => {
@@ -1156,8 +1156,8 @@ downloadButton55.addEventListener("click", downloadFiles47);
 // CHM104
 function downloadFiles48() {
   const fileUrls48 = [
-'/CHM/CHM104 Chemical Properties of Group IA .pdf',
-'/CHM/CHM104 Group IVA Elements.pdf',
+    "/CHM/CHM104 Chemical Properties of Group IA .pdf",
+    "/CHM/CHM104 Group IVA Elements.pdf",
   ];
 
   fileUrls48.forEach((url) => {
@@ -1172,3 +1172,78 @@ function downloadFiles48() {
 
 const downloadButton56 = document.getElementById("downloadButton56");
 downloadButton56.addEventListener("click", downloadFiles48);
+// GNS101
+// GNS101
+// GNS101
+function downloadFiles49() {
+  const fileUrls49 = [
+  '/GNS 101/Mariama_Ba_So_Long_a_Letter_booktree.ng_.pdf',
+  ];
+
+  fileUrls49.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton57 = document.getElementById("downloadButton57");
+downloadButton57.addEventListener("click", downloadFiles49);
+// GNS101
+function downloadFiles50() {
+  const fileUrls50 = [
+  '/GNS 101/Practice Qusetion on So long a letter.pdf',
+  ];
+
+  fileUrls50.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton58 = document.getElementById("downloadButton58");
+downloadButton58.addEventListener("click", downloadFiles50);
+// GNS101
+function downloadFiles51() {
+  const fileUrls51 = [
+  '/GNS 101/So Long a Letter ( PDFDrive ).pdf',
+  '/GNS 101/Summary of SO LONG A LETTER.pdf',
+  ];
+
+  fileUrls51.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton59 = document.getElementById("downloadButton59");
+downloadButton59.addEventListener("click", downloadFiles51);
+// GNS101
+function downloadFiles52() {
+  const fileUrls52 = [
+'/GNS 101/The Trials of Bro. Jero. SUNNYWISE.pdf',
+  ];
+
+  fileUrls52.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+
+const downloadButton60 = document.getElementById("downloadButton60");
+downloadButton60.addEventListener("click", downloadFiles52);
