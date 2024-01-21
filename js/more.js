@@ -1348,8 +1348,8 @@ downloadButton66.addEventListener("click", downloadFiles58);
 // GNG102
 function downloadFiles59() {
   const fileUrls59 = [
-'/GNS 102/Funmilayo Ransome Kuti.pdf',
-'/GNS 102/History of Efunsetan Aniwura by Comr. Jaylor (SUG incoming President)(1).pdf',
+    "/GNS 102/Funmilayo Ransome Kuti.pdf",
+    "/GNS 102/History of Efunsetan Aniwura by Comr. Jaylor (SUG incoming President)(1).pdf",
   ];
 
   fileUrls59.forEach((url) => {
@@ -1366,10 +1366,7 @@ const downloadButton67 = document.getElementById("downloadButton67");
 downloadButton67.addEventListener("click", downloadFiles59);
 // GNG102
 function downloadFiles60() {
-  const fileUrls60 = [
-    '/GNS 102/Module Four.pdf',
-    '/GNS 102/MODULE 5.pdf',
-  ];
+  const fileUrls60 = ["/GNS 102/Module Four.pdf", "/GNS 102/MODULE 5.pdf"];
 
   fileUrls60.forEach((url) => {
     const link = document.createElement("a");
@@ -1386,9 +1383,9 @@ downloadButton68.addEventListener("click", downloadFiles60);
 // GNG102
 function downloadFiles61() {
   const fileUrls61 = [
-  '/GNS 102/Module 6 PDF.pdf',
-  '/GNS 102/Module 7 PDF.pdf',
-  '/GNS 102/Module 8 Heroines.docx',
+    "/GNS 102/Module 6 PDF.pdf",
+    "/GNS 102/Module 7 PDF.pdf",
+    "/GNS 102/Module 8 Heroines.docx",
   ];
 
   fileUrls61.forEach((url) => {
@@ -1403,3 +1400,92 @@ function downloadFiles61() {
 
 const downloadButton69 = document.getElementById("downloadButton69");
 downloadButton69.addEventListener("click", downloadFiles61);
+// csc101
+// csc101
+// csc101
+function downloadFiles62() {
+  const fileUrls62 = [
+ "/CSC/csc 101_22_23_week1-2.pptx"
+  ];
+
+  fileUrls62.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton70 = document.getElementById("downloadButton70");
+downloadButton70.addEventListener("click", downloadFiles62);
+// csc101
+function downloadFiles63() {
+  const fileUrls63 = [
+ "/CSC/CSC 101_22_23_Week3.pptx"
+  ];
+
+  fileUrls63.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton71 = document.getElementById("downloadButton71");
+downloadButton71.addEventListener("click", downloadFiles63);
+// csc101
+function downloadFiles64() {
+  const fileUrls64 = [
+'/CSC/CSC 101 LECTURE NOTES_09_05_2023 complete.pdf'  ];
+
+  fileUrls64.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton72 = document.getElementById("downloadButton72");
+downloadButton72.addEventListener("click", downloadFiles64);
+// csc101
+function downloadFiles65() {
+  const fileUrls65 = [
+"/CSC/CSC 101_week8.pptx"  
+];
+
+  fileUrls65.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton73 = document.getElementById("downloadButton73");
+downloadButton73.addEventListener("click", downloadFiles65);
+// csc101
+function downloadFiles66() {
+  const fileUrls66 = [
+"/CSC/CSC101_Week9_lecture_note.pptx"  
+];
+
+  fileUrls66.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton74 = document.getElementById("downloadButton74");
+downloadButton74.addEventListener("click", downloadFiles66);
+
+
+
