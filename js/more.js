@@ -1486,6 +1486,24 @@ function downloadFiles66() {
 }
 const downloadButton74 = document.getElementById("downloadButton74");
 downloadButton74.addEventListener("click", downloadFiles66);
+// csc101
+function downloadFiles67() {
+  const fileUrls67 = [
+"/CSC/500+ Csc 101 possible exam  questions.pdf",  
+"/CSC/CSC Question BANK-1-1.pdf",  
+];
+
+  fileUrls67.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton75 = document.getElementById("downloadButton75");
+downloadButton75.addEventListener("click", downloadFiles67);
 
 
 
