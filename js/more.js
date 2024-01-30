@@ -1505,5 +1505,39 @@ function downloadFiles67() {
 const downloadButton75 = document.getElementById("downloadButton75");
 downloadButton75.addEventListener("click", downloadFiles67);
 
+// aem102
+// aem102
+// aem102
+function downloadFiles68() {
+  const fileUrls68 = [
+'/aem/AEM 102 _Introduction to Economics.pdf',
+];
 
+  fileUrls68.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton76 = document.getElementById("downloadButton76");
+downloadButton76.addEventListener("click", downloadFiles68);
+// aem102
+function downloadFiles69() {
+  const fileUrls69 = [
+'/aem/AEM 102 _Introduction to Economics.pdf',
+];
 
+  fileUrls69.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton77 = document.getElementById("downloadButton77");
+downloadButton77.addEventListener("click", downloadFiles69);
