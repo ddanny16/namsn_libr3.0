@@ -1511,6 +1511,7 @@ downloadButton75.addEventListener("click", downloadFiles67);
 function downloadFiles68() {
   const fileUrls68 = [
 '/aem/AEM 102 _Introduction to Economics.pdf',
+'/aem/AEM102 Hay-Why-Oh Compiled.pdf',
 ];
 
   fileUrls68.forEach((url) => {
@@ -1527,7 +1528,9 @@ downloadButton76.addEventListener("click", downloadFiles68);
 // aem102
 function downloadFiles69() {
   const fileUrls69 = [
-'/aem/AEM 102 _Introduction to Economics.pdf',
+'/aem/AEM 102 CONSUMPTION-1.pdf',
+'/aem/AEM102 Consumption.pdf',
+
 ];
 
   fileUrls69.forEach((url) => {
@@ -1541,3 +1544,121 @@ function downloadFiles69() {
 }
 const downloadButton77 = document.getElementById("downloadButton77");
 downloadButton77.addEventListener("click", downloadFiles69);
+// aem102
+function downloadFiles70() {
+  const fileUrls70 = [
+'/aem/AEM 102 CONSUMPTION-1.pdf',
+'/aem/AEM102 Consumption.pdf',
+
+];
+
+  fileUrls70.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton78 = document.getElementById("downloadButton78");
+downloadButton78.addEventListener("click", downloadFiles70);
+// aem102
+function downloadFiles71() {
+  const fileUrls71 = [
+"/aem/AEM 102_DEMAND_SUPPLY-1.pdf",
+"/aem/AEM 102_DEMAND_SUPPLY.pdf",
+"/aem/AEM102 Demand, Supply .pdf",
+"/aem/AEM102 Determinant of income elasticity of demand.pdf",
+"/aem/AEM102 Equilibrium and Elasticity of demand.pdf",
+
+];
+
+  fileUrls71.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton79 = document.getElementById("downloadButton79");
+downloadButton79.addEventListener("click", downloadFiles71);
+// aem102
+function downloadFiles72() {
+  const fileUrls72 = [
+"/aem/AEM 102 Costs of production 2020-21.pdf",
+"/aem/AEM 102. COSTS OF PRODUCTION.pdf",
+];
+
+  fileUrls72.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton80 = document.getElementById("downloadButton80");
+downloadButton80.addEventListener("click", downloadFiles72);
+// aem102
+function downloadFiles73() {
+  const fileUrls73 = [
+"/aem/AEM 102_Economic Problems_Part  A (2).pdf",
+"/aem/AEM 102_Economic Problems_Part B (1).pdf",
+"/aem/AEM 102 Economic Problems Part B .pdf",
+"/aem/UNEMPLOYMENT AND NATIONAL INCOME.pdf",
+];
+
+  fileUrls73.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton81 = document.getElementById("downloadButton81");
+downloadButton81.addEventListener("click", downloadFiles73);
+// aem102
+function downloadFiles74() {
+  const fileUrls74 = [
+"/aem/AEM 102_ INFLATION.pdf",
+"/aem/AEM 102_ INVESTMENT and EXPORT.pdf",
+"/aem/INFLATION, DEFICIT AND DEBT PDF.pdf",
+
+];
+
+  fileUrls74.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton82 = document.getElementById("downloadButton82");
+downloadButton82.addEventListener("click", downloadFiles74);
+// aem102
+function downloadFiles75() {
+  const fileUrls75 = [
+"/aem/AEM 102 EXAM GUIDE.pdf",
+"/aem/AEM 102 past qst. SUNNYWISE.pdf",
+
+];
+
+  fileUrls75.forEach((url) => {
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", "");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+}
+const downloadButton83 = document.getElementById("downloadButton83");
+downloadButton83.addEventListener("click", downloadFiles75);
